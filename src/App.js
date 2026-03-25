@@ -15,11 +15,12 @@ function Navbar() {
     <nav className="navbar">
       <div className="navbar-brand" onClick={() => navigate('/')}>
         <div className="navbar-logo-mastercard">
-          <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-            <circle cx="35" cy="50" r="28" fill="#d13438" opacity="0.9" />
-            <circle cx="65" cy="50" r="28" fill="#f7630c" />
-          </svg>
-        </div>
+  <img
+    src="https://stage.asset.connect.mastercard.com/website-assets/-/global-connect/mastercard/0.2.23/icons/logoVertical.svg"
+    alt="Mastercard Logo"
+    style={{ height: '50px', width: 'auto', marginTop: '10px', marginLeft: '-20px' }}
+  />
+</div>
         <div className="navbar-brand-text">
           <span className="navbar-title">
             BRAM
